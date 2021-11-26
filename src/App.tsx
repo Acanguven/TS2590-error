@@ -5,7 +5,8 @@ const Fr = React.lazy(
     () => import('./Fragment')
 );
 
-// const dummy = <Uzay />
+// Uncomment this line below, then it compiles without any errors
+// const dummy = <Fr />
 
 const Main = () => (
     <div>
