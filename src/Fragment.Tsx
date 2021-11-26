@@ -1,10 +1,10 @@
 import * as React from "react"
 
 
-const Uzay = () => (
+const Fragment = () => (
     <div>
-        Uzaaay
+        Fragment
     </div>
 )
 
-export default Uzay
+export default Fragment

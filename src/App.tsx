@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDom from "react-dom"
 
-const Uzay = React.lazy(
+const Fr = React.lazy(
     () => import('./Fragment')
 );
 
@@ -10,7 +10,7 @@ const Uzay = React.lazy(
 const Main = () => (
     <div>
         <React.Suspense fallback={"Loading"}>
-            <div><Uzay/></div>
+            <div><Fr/></div>
         </React.Suspense>
     </div>
 )

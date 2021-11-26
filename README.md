@@ -4,3 +4,5 @@ To repeat the error
 npm install
 npm run build
 ```
+
+Or just simply run `setup.sh`
